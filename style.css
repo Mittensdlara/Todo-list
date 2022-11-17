@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
+
+
+
+:root {
+    --primary: #9333EA;
+    --text-natural: #404040;
+    --text-gray: #6B7280;
+}
+
+
+
+body {
+    background: linear-gradient(to left, #D6D3FE, #fccbf2);
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+
+.container{
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 30px;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.right-side {
+    border: 3px solid white;
+    border-radius: 12px;
+    background: #FFFFFF;
+    padding: 3rem;
+   
+    
+}
+
+
+.left-list, .right-list {
+    list-style: none;
+}
+
+.right-list-items {
+    padding: 1rem;
+
+   
+   
+}
+
+.left-list-items {
+    color: var(--primary);
+}
+
+.task{
+    background-color: #ffffff;
+    height: 50px;
+    padding: 8px 10px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #d1d3d4;
+    cursor: pointer;
+}
+
+.task button {
+    background-color: red;
+    color:white;
+    height: 50%;
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
