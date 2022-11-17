@@ -14,24 +14,30 @@
        <div class="lef-side">
          <ul class="left-list">
             <li class="left-list-items">
-                <a href="#">Today</a>
+                <a href="#" class="tablinks" onclick="openTab(event, 'Today')">Today
+                </a>
+               
             </li>
             <br>
             <br>
             <li class="left-list-items">
-                <a href="#">Important</a>
+                <a href="#" class="tablinks" onclick="openTab(event, 'important')">Important
+                </a>
             </li>
          </ul>
     
        </div>
        <div class="right-side">
          <div id="new-task">
-          
+           <h1 class="tabcontent">Today list</h1>
             <div id="tasks"></div>
-            
-        
+            <div id="time"></div>
+
             <input type="text" id="task-input" placeholder="Add Todo">
             <input type="submit" id="task-submit" value="+">
+            
+          
+            
             
        
      </div>

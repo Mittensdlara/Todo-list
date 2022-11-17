@@ -44,6 +44,7 @@ body {
 
 .left-list, .right-list {
     list-style: none;
+
 }
 
 .right-list-items {
@@ -55,6 +56,9 @@ body {
 
 .left-list-items {
     color: var(--primary);
+    padding-right: 1rem;
+    margin-right: 1rem;
+
 
 
 }
