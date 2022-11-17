@@ -55,9 +55,12 @@ body {
 
 .left-list-items {
     color: var(--primary);
+
+
 }
 
 .task{
+    color: var(--text-natural);
     background-color: #ffffff;
     height: 50px;
     padding: 8px 10px;
@@ -68,15 +71,52 @@ body {
     justify-content: space-between;
     border-bottom: 2px solid #d1d3d4;
     cursor: pointer;
+    font-family: inherit;
+    font-size: 17px;
+    font-weight: 600;
 }
 
 .task button {
-    background-color: red;
+    font-family: inherit;
+    background-color: #FE4141;
     color:white;
-    height: 50%;
-    width: 70px;
-    border-radius: 5px;
+    height: 55%;
+    width: 90px;
+    border-radius: 7px;
     border: none;
     cursor: pointer;
-    outline: none;
+
+}
+
+
+#task-submit {
+    background-color: var(--primary);
+    color: white;
+    border-radius: 10px;
+    border: 0px solid white;
+}
+
+#task-input {
+    background: #F3F3F3;
+    border-radius: 5px;
+
+width: 300px;
+height: 30px;
+border: none;
+}
+
+.left-list-items a {
+  font-family: inherit;
+  padding: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+
+.left-list-items a:hover {
+ 
+   transition: all 0.5s;
+    background-color: #ebb8fd;
+
 }

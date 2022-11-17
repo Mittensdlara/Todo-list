@@ -19,13 +19,7 @@ document.querySelector('#task-submit').onclick = function(){
             current_tasks[i].onclick = function(){
                 this.parentNode.remove();
             }
-        }
-
-        var tasks = document.querySelectorAll(".task");
-        for(var i=0; i<tasks.length; i++){
-            tasks[i].onclick = function(){
-               
-            }
+        
         }
 
         document.querySelector("#new-task input").value = "";
