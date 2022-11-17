@@ -26,7 +26,7 @@ document.querySelector('#task-submit').onclick = function(){
 
         document.querySelector("#new-task input").value = "";
     }
-++
+
 function openTab(evt, tabName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
