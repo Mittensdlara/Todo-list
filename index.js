@@ -26,11 +26,10 @@ document.querySelector('#task-submit').onclick = function(){
 
         document.querySelector("#new-task input").value = "";
     }
-}
-
+++
 function openTab(evt, tabName) {
     var i, tabcontent, tablinks;
-    tabcontent = "imporatnt";
+    tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
       tabcontent[i].style.display = "none";
     }
@@ -41,3 +40,4 @@ function openTab(evt, tabName) {
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
   }
+}
